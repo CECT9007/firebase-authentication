@@ -4,14 +4,14 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-
-const config = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+const firebaseConfig = {
+  apiKey: AIzaSyDdDgwJ8G2CM0Sw6ni2jT_QWaPx8kdFrow,
+  authDomain: eunoia-life-v4s94.firebaseapp.com,
+  projectId: "eunoia-life-v4s94",
+  storageBucket: eunoia-life-v4s94.firebasestorage.app,
+  messagingSenderId: "83522285374",
+  appId: 1:83522285374:web:d77067397f37a3b586066f
 };
 
-export const firebaseConfig = config
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
